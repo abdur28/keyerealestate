@@ -60,7 +60,7 @@ export default function AboutPage() {
                 identifying prime investment properties tailored to their specific needs and financial goals. Trust us
                 to make your real estate journey a success.
               </p>
-              <Link href="/#info"><Button className="bg-black text-white hover:bg-gray-800 px-10 py-7 text-lg">Learn More</Button></Link>
+              <Link href="/recruitment#info"><Button className="bg-black text-white hover:bg-gray-800 px-10 py-7 text-lg">Learn More</Button></Link>
             </motion.div>
           </div>
         </div>

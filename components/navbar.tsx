@@ -16,7 +16,7 @@ export default function Navbar() {
   }, [])
 
   const navLinks = [
-    { name: "Home", href: "/" },
+    { name: "Recruitment", href: "/recruitment" },
     { name: "About Us", href: "/about" },
     { name: "Our Services", href: "/services" },
   ]
@@ -39,8 +39,8 @@ export default function Navbar() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex items-center gap-3"
           >
-            <Link href="/" className="flex flex-col">
-              <span className="font-[family-name:var(--font-playfair)] text-3xl font-light text-[color:var(--color-brand-cyan)] lowercase leading-none">
+            <Link href="/recruitment" className="flex flex-col">
+              <span className="mb-1 font-[family-name:var(--font-playfair)] text-3xl font-light text-[color:var(--color-brand-cyan)] lowercase leading-none">
                 keyes
               </span>
               <span className="text-[color:var(--color-brand-cyan)] text-[11px] tracking-[0.25em] uppercase leading-none">

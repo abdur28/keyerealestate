@@ -83,7 +83,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="flex justify-center pt-8"
           >
-            <Link href="/#info"><Button className="bg-black text-white hover:bg-gray-800 px-10 py-7 text-lg">Learn More</Button></Link>
+            <Link href="/recruitment#info"><Button className="bg-black text-white hover:bg-gray-800 px-10 py-7 text-lg">Learn More</Button></Link>
           </motion.div>
         </div>
       </section>

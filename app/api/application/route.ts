@@ -12,7 +12,6 @@ New Job Application Received
 Applicant Full Legal Name: ${data.fullName}
 Email: ${data.email}
 Phone: ${data.phone}
-Multi-line Address: ${data.multiAddress || 'N/A'}
 Country/Region: ${data.country}
 Address: ${data.address}
 City: ${data.city}
