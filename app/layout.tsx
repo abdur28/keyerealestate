@@ -2,6 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Playfair_Display, Inter } from "next/font/google"
 import { Suspense } from "react"
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
 import "./globals.css"
 
 const playfair = Playfair_Display({
@@ -30,7 +32,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable} ${playfair.variable}`}>
+        <Navbar />
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        <Footer />
       </body>
     </html>
   )
